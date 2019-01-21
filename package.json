@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "RESTful API with Node.js, Express, and PostgreSQL",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.4",
